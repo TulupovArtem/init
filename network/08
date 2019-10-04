@@ -1,0 +1,3 @@
+nslookup slash16.org | grep Address | awk '{ print $2 }' | tail -n 1 | xargs whois
+
+Amazon Technologies Inc.

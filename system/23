@@ -1,0 +1,3 @@
+su $username
+
+ssh $username@ip_adress

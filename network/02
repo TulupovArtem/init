@@ -1,0 +1,2 @@
+ifconfig en0 | grep broadcast | cut -f6 -d" "
+ifconfig en0 | grep broadcast | cut -f6 -d" " | xargs ping -c 2 | awk '{ print $4 }' | cut -f1 -d':' | grep '.168.'

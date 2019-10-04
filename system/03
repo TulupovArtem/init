@@ -1,0 +1,2 @@
+sudo nano /etc/hostname
+new_host_name

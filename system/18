@@ -1,0 +1,2 @@
+sudo service ssh stop
+sudo pgrep ssh | xargs kill -9
